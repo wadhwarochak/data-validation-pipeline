@@ -8,7 +8,7 @@ def write_message(message):
     with open(log_file, 'a') as f:
         f.write(f'{datetime.datetime.now()} - {message}\n')
 
-
+# --
 def validate_data(file_path):
     try:
         # Load data
